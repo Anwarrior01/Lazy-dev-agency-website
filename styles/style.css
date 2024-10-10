@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-dark: #0b051a;
+  --white: #fefefe;
+  --primary: #f5d94d;
+  /* --primary: #6256CA; */
+  --dark-mode-S900: #1a1a29;
+  --dark-mode-S1000: #181824;
+  --dark-mode-S200: #31313f;
+  --gradient-1: linear-gradient(
+  180deg,
+  #2a0062 0%,
+  #1d1a70 50%,
+  #0b3d91 100%
+);
+
+--gradient-4: linear-gradient(
+  139deg,
+  #e8b32d 45%,
+  #f7e570 90%
+);
+
+--gradient-3: linear-gradient(
+  140deg,
+  #4b0082 0%,
+  #2b3c82 50%,
+  #0b1a40 100%
+);
+
+--gradient-2: linear-gradient(
+  142deg,
+  #3b206b 50%,
+  #000033 100%
+);
+
+  /* --gradient-1: linear-gradient(
+    180deg,
+    #6473ff 0%,
+    #2134e1 99.99%,
+    #152bf1 100%
+  );
+  --gradient-2: linear-gradient(
+    139deg,
+    #f97878 9.79%,
+    rgba(255, 176, 119, 0.81) 64.34%,
+    rgba(255, 176, 119, 0.81) 90.36%
+  );
+  --gradient-3: linear-gradient(
+    140deg,
+    #f97878 0%,
+    #4052fb 73.99%,
+    #0720ff 100%
+  );
+  --gradient-4: linear-gradient(
+    142deg,
+    #26c8fc 6.46%,
+    #57ecc8 58.9%,
+    #49f5db 93.88%
+  ); */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.home-section {
+  min-height: 100vh;
+  background-image: url("../img/pawel-czerwinski-1A_dO4TFKgM-unsplash.jpg") , linear-gradient(to bottom, rgba(48,0,48,0.8), #0A0A0A);
+  background-blend-mode: soft-light; /*color color-burn color-dodge darken hard-light  luminosity multiply overlay saturation screen*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  a {
+    margin: 0 0 20px;
+    font-size: 2rem;
+    color: #ffeba7;
+  }
+  cursor: pointer;
+  &:hover {
+    polygon {
+      fill: #ffeba7;
+      transition: all 0.2s ease-out;
+
+      &.arrow-bottom {
+        transform: translateY(-18px);
+      }
+
+      &.arrow-top {
+        transform: translateY(18px);
+      }
+    }
+  }
+}
+
+#more-arrows {
+  width: 75px;
+  height: 65px;
+}
+
+polygon {
+  fill: #ffeba7;
+  transition: all 0.2s ease-out;
+
+  &.arrow-middle {
+    opacity: 0.75;
+  }
+
+  &.arrow-top {
+    opacity: 0.5;
+  }
+}
+
+.who-are-we-section {
+  min-height: 100vh;
+  background-image: url("../img/peter-rovder-X_5kMOSxLzw-unsplash.jpg") , linear-gradient(to bottom, rgba(48,0,48,0.8), #0A0A0A);
+  background-blend-mode: soft-light; /*color color-burn color-dodge darken hard-light  luminosity multiply overlay saturation screen*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  display: flex;
+}
+.waw-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.waw-header {
+  display: flex;
+  margin: 3rem auto;
+  flex-wrap: wrap; 
+  gap: 12rem; 
+}
+.waw-header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 45vw;
+}
+
+.waw-header-content h2 {
+  font-size: 42px;
+  margin-bottom: 0; 
+}
+
+.waw-header-content h1 {
+  font-size: 62px;
+  margin-bottom: 0; 
+}
+
+.waw-header-content p {
+  margin: 0; 
+}
+.buttons-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.btn {
+  padding: 14px 28px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn img {
+  width: 14px;
+  height: 14px;
+}
+.primary-btn {
+  background: var(--primary);
+  color: var(--white);
+  font-weight: bold;
+}
+.secondary-btn {
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+.header-img img {
+  width: 24rem;
+}
+.aboutUs-section {
+  min-height: 100vh;
+  background-image: url("../img/pawel-czerwinski-FD5iSCbpuj4-unsplash.jpg")  , linear-gradient(to bottom, rgba(48,0,48,0.8), #0A0A0A);
+  background-blend-mode: color-burn; /*color color-burn color-dodge darken hard-light  luminosity multiply overlay saturation screen*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding-top: 2rem;
+}
+.about-title {
+  color: var(--primary);
+  font-size: 8rem;
+  text-align: center;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8;
+  font-size: 1.4rem;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 1200px; 
+  
+}
+
+.skill {
+  border-radius: 10px;
+  height: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+}
+
+.skill img{
+  width: 50px;
+}
+.skill h1{
+  font-size: 30px;
+}
+.skill-1{
+  background: var(--gradient-1);
+}
+.skill-2{
+  background: var(--gradient-2);
+}
+.skill-3{
+  background: var(--gradient-3);
+}
+.skill-4{
+  background: var(--gradient-4);
+}
+.skill-4 h1{
+  font-size: 1.6rem;
+}
+.word-shopi{
+  display: flex;
+  gap: 2;
+}
+
+@media screen and (max-width: 768px) {
+  /* WHO ARE WE - Mobile View */
+  .waw-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .waw-header-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .waw-header-content h2 {
+    font-size: 32px;
+  }
+
+  .waw-header-content h1 {
+    font-size: 48px;
+  }
+
+  .waw-header-content p {
+    font-size: 14px;
+  }
+  .buttons-wrapper{
+    justify-content: center;
+  }
+
+  .header-img img {
+    width: 20rem;
+    margin-top: 1rem;
+  }
+
+  /* ABOUT US - Mobile View */
+  .about-title {
+    font-size: 5rem;
+  }
+
+  .about-text p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* WHO ARE WE - Small Mobile View */
+  .waw-header-content h2 {
+    font-size: 28px;
+  }
+
+  .waw-header-content h1 {
+    font-size: 40px;
+  }
+
+  .waw-header-content p {
+    font-size: 12px;
+  }
+
+  .header-img img {
+    width: 18rem;
+  }
+
+  /* ABOUT US - Small Mobile View */
+  .about-title {
+    font-size: 3.5rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+}
+
+.services-section {
+  min-height: 100vh;
+  background-image: url("../img/komarov-egor-zs0_kvFgVQk-unsplash.jpg") , linear-gradient(to bottom, rgba(48,0,48,0.8), #0A0A0A);
+  background-blend-mode: color-burn; /*color color-burn color-dodge darken hard-light  luminosity multiply overlay saturation screen*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+}
+.services-title {
+  color: var(--primary);
+  font-size: 8rem;
+  text-align: center;
+}
