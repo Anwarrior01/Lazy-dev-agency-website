@@ -124,6 +124,23 @@
   .projects-title {
     font-size: 1.5rem;
   }
+  .project-img{
+    width: 20px;
+    height: auto;
+    margin: 1rem 0;
+  }
+  .tech-row{
+    font-size: .7rem;
+    display: flex !important;
+    justify-content: start !important;
+    gap: 75px;
+  }
+  .tech-item{
+    display: flex;
+    justify-content: start !important;
+  }
+ 
+
 }
 
 
@@ -141,7 +158,7 @@
   }
 
   .project-img{
-    width: 80%  !important;
+    width: 90% !important  ;
     height: auto;
     margin: 1rem 0;
   }
@@ -178,16 +195,17 @@
     align-items: end !important;
     justify-content: end !important;
 }
-.screen-wrapper h3,p {
+.screen-wrapper h3, p {
     display: flex;
-    align-items: end !important;
-  text-align: right;
+    align-items: start !important;
+    text-align: left;
     
 }
  .screen {
     width: 90% !important;
     margin: 0 auto;
-    background-size: cover !important;
+    background-size: calc(90%) !important;
+    background-position: center;
 }
 body {
   overflow-x: hidden;

@@ -632,7 +632,7 @@ button {
   height: 500px;
   transition: all 0.3s ease;
   margin: 2rem;
-  width: 25%;
+  width: 350px;
   border: 0.1px solid #ffe76d26;
 }
 .pro-description {
@@ -657,6 +657,7 @@ button {
 }
 .tech-row {
   display: flex;
+  color:  #fff1b7;
 }
 .tech-item {
   display: flex;
