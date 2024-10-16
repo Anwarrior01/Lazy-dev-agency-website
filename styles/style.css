@@ -455,13 +455,14 @@ button {
 .pro-btn {
   padding: 0.5rem 1rem;
   color: var(--primary);
-  border: 2px solid var(--primary);
+  border: 1px solid var(--primary);
   background: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: background-color 0.3s, transform 0.3s;
   cursor: pointer;
+  gap: 5px;
 }
 
 .pro-btn:hover {
@@ -951,6 +952,6 @@ button {
   color: #d3d3d3;
 }
 
-.pro-btn a{
+.projects-buttons a{
   text-decoration: none;
 }
