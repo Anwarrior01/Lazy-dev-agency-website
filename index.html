@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/heroStyle.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/anim.css" />
+    <link rel="stylesheet" href="styles/respo.css" />
     <title>Lazy Dev Agency</title>
   </head>
   <body>
@@ -33,13 +34,14 @@
     <nav class="nav">
       <ul class="pt-5">
         <li><img class="vertical" src="img/agency-logo.png" alt="" /></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact us</a></li>
       </ul>
     </nav>
-    <div class="home-section">
+    <div class="home-section" id="home">
       <div>
         <div class="logo">
           <img src="img/logo-horizontal.png" alt="" />
@@ -102,7 +104,7 @@
                 class="btn secondary-btn"
                 href="#services"
               >
-                Our Projects <img src="./img/dev.png" alt="" />
+                Our Services <img src="./img/dev.png" alt="" />
               </a>
             </div>
           </div>
@@ -222,7 +224,7 @@
       </div>
     </section>
     <!--Projects SECTION -->
-    <section class="projects-section">
+    <section class="projects-section" id="projects">
       <div class="projects">
         <h1 class="projects-title">Featured Projects:</h1>
         <p class="projects-description">
@@ -242,12 +244,12 @@
         </div>
 
         <div class="projects-container" id="projects-container">
-          <!-- JavaScript generates here -->
+          <!-- js code here -->
         </div>
       </div>
     </section>
 
-    <section class="team-section">
+    <section class="team-section" id="team">
       <div class="team">
         <h1 class="team-title">Our Team Members:</h1>
         <div class="team-members">
@@ -275,7 +277,7 @@
           </div>
           <div class="member-card">
             <img
-              src="./img/haijob.jfif"
+              src="./img/abdo.jpg"
               alt="Team Member 2"
               class="member-photo"
             />
@@ -315,7 +317,107 @@
         </div>
       </div>
     </section>
+    <section class="contact-section" id="contact-us">
+      <h1 class="contact-title">Contact Us</h1>
+      <div class="contact-container">
+        <div class="contact-img">
+          <img src="./img/contact-img.jpg" alt="">
+        </div>
+        <div class="contact-form">
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required>
+              <span class="text">First Name :</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required>
+              <span class="text">Email :</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required>
+              <span class="text">Mobile :</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox textarea">
+              <textarea name="" id=""  required></textarea>
+              <span class="text">Type Your Message Here :</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <input type="submit" value="Send ">
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- footer section -->
+     <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="./img/logo-horizontal.png" alt="Lazy Dev Agency Logo" />
+      <p>Lazy Dev Agency – We build experiences, not just websites.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact-us">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-services">
+      <h3>Our Services</h3>
+      <ul>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">Mobile Apps</a></li>
+        <li><a href="#">UI/UX Design</a></li>
+        <li><a href="#">Video Editing</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Get in Touch</h3>
+      <ul>
+        <li><i class="fas fa-phone"></i> +123 456 7890</li>
+        <li><i class="fas fa-envelope"></i> info@lazydevagency.com</li>
+        <li><i class="fas fa-map-marker-alt"></i> Morocco, North Africa</li>
+      </ul>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2024 Lazy Dev Agency. All rights reserved.</p>
+  </div>
+</footer>
 
     <script type="module" src="./js/scripts.js"></script>
+    <script type="module" src="./js/menu.js"></script>
   </body>
 </html>

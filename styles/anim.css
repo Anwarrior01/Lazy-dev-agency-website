@@ -1,4 +1,4 @@
-/* Background animation wrapper - ensure it's layered properly */
+
 .wrapper {
     position: fixed;
     top: 0;
@@ -28,7 +28,7 @@
 }
 
 
-/* Keep other span animations unchanged */
+
 .wrapper span:nth-child(1) { left: 60px; animation-delay: 0.6s; }
 .wrapper span:nth-child(2) { left: 10%; animation-delay: 3s; width: 60px; height: 60px; }
 .wrapper span:nth-child(3) { left: 20%; animation-delay: 2s; }
@@ -50,11 +50,11 @@
     }
     100% {
         transform: translateY(-800px) rotate(360deg);
-        opacity: 0; /* You can also try to set this to 1 for debugging */
+        opacity: 0; 
     }
 }
 
-/* Main content z-index adjustment */
+
 .home-section, .who-are-we-section, .aboutUs-section {
     position: relative;
     z-index: 2 !important;

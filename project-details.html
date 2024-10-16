@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/heroStyle.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/anim.css" />
+    <link rel="stylesheet" href="styles/respo.css" />
   <title id="title">Project Details</title>
     <link rel="stylesheet" href="styles/style.css" />
 </head>
@@ -27,15 +28,16 @@
       <span>Z</span>
       <span>Z</span>
     </div>
-<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
+ <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
     <label for="menu-icon"></label>
     <nav class="nav">
       <ul class="pt-5">
         <li><img class="vertical" src="img/agency-logo.png" alt="" /></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/#about-us">About Us</a></li>
+        <li><a href="/#services">Services</a></li>
+        <li><a href="/#projects">Projects</a></li>
+        <li><a href="/#contact">Contact us</a></li>
       </ul>
     </nav>
   <div class="project-details">
@@ -44,7 +46,23 @@
         <h1 id="project-title"></h1>
         <div class="pro-description">
           <div class="project-img" id="project-img"></div>
+          <div class="project-info">
+            <h3>Project Description : </h3>
           <p id="project-description"></p>
+          <h4 style="margin-top: 1rem;">Technologies Used :</h4>
+          <div id="technologies" class="technologies">
+
+          </div>
+          </div>
+        </div>
+        <div class="pro-screens">
+          <div class="screen-wrapper">
+            <div class="screen" id="screen"></div>
+            <div class="screen-info">
+              <h3>Project Screen</h3>
+              <p class="screen-description" id="screen-description"></p>
+            </div>
+          </div>
         </div>
     </div>
 
@@ -54,6 +72,6 @@
   <script type="module" src="./js/project-details.js"></script>
 
     <script type="module" src="./js/scripts.js"></script>
-
+    <script type="module" src="./js/menu.js"></script>
 </body>
 </html>
