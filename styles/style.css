@@ -109,7 +109,7 @@ polygon {
 
 .who-are-we-section {
   min-height: 100vh;
-  background-image: url("https://i.ibb.co/k6nWX6P/peter-rovder-X-5k-MOSx-Lzw-unsplash.jpg"),
+  background-image: url("https://i.ibb.co/V3VqHtt/peter-rovder-X-5k-MOSx-Lzw-unsplash.jpg"),
     linear-gradient(to bottom, rgba(48, 0, 48, 0.8), #0a0a0a);
   background-blend-mode: soft-light; /*color color-burn color-dodge darken hard-light  luminosity multiply overlay saturation screen*/
   background-attachment: fixed;
@@ -182,7 +182,7 @@ polygon {
 }
 .aboutUs-section {
   min-height: 100vh;
-  background-image: url("https://i.ibb.co/2F58QpL/pawel-czerwinski-FD5i-SCbpuj4-unsplash.jpg"),
+  background-image: url("https://i.ibb.co/XX8htwC/pawel-czerwinski-FD5i-SCbpuj4-unsplash.jpg"),
     linear-gradient(to bottom, rgba(48, 0, 48, 0.8), #0a0a0a);
   background-blend-mode: color-burn; /*color color-burn color-dodge darken hard-light  luminosity multiply overlay saturation screen*/
   background-attachment: fixed;
@@ -503,7 +503,7 @@ button {
 /* Team Section  */
 .team-section {
   min-height: 100vh;
-  background-image: url("https://i.ibb.co/60KhtY8/pexels-harun-tan-2311991-3980364.jpg"),
+  background-image: url("https://i.ibb.co/zXWw9Gg/pexels-harun-tan-2311991-3980364.jpg"),
     linear-gradient(to bottom, rgba(17, 0, 17, 0.8), #0a0a0a);
   background-blend-mode: darken;
   background-attachment: fixed;
@@ -599,7 +599,7 @@ button {
 
 .project-details {
   min-height: 100vh;
-  background-image: url("https://i.ibb.co/prQ1dHm/greg-rakozy-0-LU4v-O5i-Fp-M-unsplash.jpg"),
+  background-image: url("https://i.ibb.co/Xpq4qCP/greg-rakozy-0-LU4v-O5i-Fp-M-unsplash.jpg"),
     linear-gradient(to bottom, rgba(42, 2, 42, 0.8), #0a0a0a);
   background-blend-mode: multiply;
   background-attachment: fixed;
