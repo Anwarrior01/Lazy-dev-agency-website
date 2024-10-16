@@ -6,17 +6,17 @@ const iconMapping = {
   demo: "fas fa-desktop",
   preview: "fas fa-eye",
 };
+
 const filterButtons = document.querySelectorAll(".filter-btn");
 const projectsContainer = document.getElementById("projects-container");
+
 
 filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     filterButtons.forEach((btn) => btn.classList.remove("active"));
-
     button.classList.add("active");
 
     const filterType = button.getAttribute("data-filter");
-
     filterProjects(filterType);
   });
 });
@@ -43,13 +43,21 @@ function filterProjects(type) {
       const buttonsContainer = document.createElement("div");
       buttonsContainer.classList.add("projects-buttons");
 
+
       project.buttons.forEach((button) => {
-        const btn = document.createElement("button");
+        const btn = document.createElement("a");
+        btn.href = button.link;
+        btn.target = "_blank"; 
+        btn.classList.add("pro-btn");
+
+   
+        btn.addEventListener("click", (event) => {
+          event.stopPropagation();
+        });
+
         btn.innerHTML = `<i class="${iconMapping[button.icon]}"></i> ${
           button.label
         }`;
-        btn.classList.add("pro-btn");
-        btn.onclick = () => (window.location.href = button.link);
         buttonsContainer.appendChild(btn);
       });
 
@@ -59,16 +67,21 @@ function filterProjects(type) {
       const moreInfoButton = document.createElement("button");
       moreInfoButton.textContent = "More Info";
       moreInfoButton.classList.add("btn", "btn-more-info");
-      moreInfoButton.onclick = () => {
+
+      moreInfoButton.onclick = (event) => {
+        event.stopPropagation(); 
         window.location.href = `project-details.html?id=${projects.indexOf(
           project
         )}`;
       };
+
+
       projectCard.onclick = () => {
         window.location.href = `project-details.html?id=${projects.indexOf(
           project
         )}`;
       };
+
       moreInfoContainer.appendChild(moreInfoButton);
 
       projectCard.appendChild(projectTitle);
@@ -79,5 +92,6 @@ function filterProjects(type) {
       projectsContainer.appendChild(projectCard);
     });
 }
+
 
 filterProjects("all");

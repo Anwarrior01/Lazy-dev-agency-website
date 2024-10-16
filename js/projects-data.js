@@ -13,9 +13,24 @@ export const projects = [
     ],
     screenshots: "./img/screenshots/KooballoCustomer.png",
     buttons: [
-      { label: "Google Play", link: "#", icon: "google-play", type: "primary" },
-      { label: "App Store", link: "#", icon: "app-store", type: "primary" },
-      { label: "Demo", link: "#", icon: "demo", type: "primary" },
+      {
+        label: "Google Play",
+        link: "https://play.google.com/store/apps/details?id=com.v_bd_w.kooballo",
+        icon: "google-play",
+        type: "primary",
+      },
+      {
+        label: "App Store",
+        link: "https://apps.apple.com/us/app/kooballo/id6475052562",
+        icon: "app-store",
+        type: "primary",
+      },
+      {
+        label: "Demo",
+        link: "https://kooballo.ma",
+        icon: "demo",
+        type: "primary",
+      },
     ],
   },
   {
@@ -32,9 +47,19 @@ export const projects = [
     ],
     screenshots: "./img/screenshots/KooballoDriver.png",
     buttons: [
-      { label: "Google Play", link: "#", icon: "google-play", type: "primary" },
-      { label: "App Store", link: "#", icon: "app-store", type: "primary" },
-      { label: "Demo", link: "#", icon: "demo", type: "primary" },
+      {
+        label: "Google Play",
+        link: "https://play.google.com/store/apps/details?id=com.v_bd_w.kooballoDriver",
+        icon: "google-play",
+        type: "primary",
+      },
+      {
+        label: "App Store",
+        link: "https://apps.apple.com/us/app/kooballo-driver/id6477842109",
+        icon: "app-store",
+        type: "primary",
+      },
+      // { label: "Demo", link: "#", icon: "demo", type: "primary" },
     ],
   },
   {
@@ -51,9 +76,19 @@ export const projects = [
     ],
     screenshots: "./img/screenshots/KooballoPay.png",
     buttons: [
-      { label: "Google Play", link: "#", icon: "google-play", type: "primary" },
-      { label: "App Store", link: "#", icon: "app-store", type: "primary" },
-      { label: "Demo", link: "#", icon: "demo", type: "primary" },
+      {
+        label: "Google Play",
+        link: "https://play.google.com/store/apps/details?id=com.v_bd_w.KooballoPay",
+        icon: "google-play",
+        type: "primary",
+      },
+      {
+        label: "App Store",
+        link: "https://apps.apple.com/us/app/kooballo-pay/id6477578724",
+        icon: "app-store",
+        type: "primary",
+      },
+      // { label: "Demo", link: "#", icon: "demo", type: "primary" },
     ],
   },
   {
@@ -71,9 +106,24 @@ export const projects = [
     ],
     screenshots: "./img/screenshots/WashaaaCustomer.png",
     buttons: [
-      { label: "Google Play", link: "#", icon: "google-play", type: "primary" },
-      { label: "App Store", link: "#", icon: "app-store", type: "primary" },
-      { label: "Demo", link: "#", icon: "demo", type: "primary" },
+      {
+        label: "Google Play",
+        link: "https://play.google.com/store/apps/details?id=com.washaa.customer.washaacustomer",
+        icon: "google-play",
+        type: "primary",
+      },
+      {
+        label: "App Store",
+        link: "https://apps.apple.com/us/app/washaaa-customer/id6498149621",
+        icon: "app-store",
+        type: "primary",
+      },
+      {
+        label: "Demo",
+        link: "https://washaaa.com",
+        icon: "demo",
+        type: "primary",
+      },
     ],
   },
   {
@@ -91,9 +141,19 @@ export const projects = [
     ],
     screenshots: "./img/screenshots/Washaaa!Washer.png",
     buttons: [
-      { label: "Google Play", link: "#", icon: "google-play", type: "primary" },
-      { label: "App Store", link: "#", icon: "app-store", type: "primary" },
-      { label: "Demo", link: "#", icon: "demo", type: "primary" },
+      {
+        label: "Google Play",
+        link: "https://play.google.com/store/apps/details?id=com.washaa.washer.washaawasher",
+        icon: "google-play",
+        type: "primary",
+      },
+      {
+        label: "App Store",
+        link: "https://apps.apple.com/us/app/washaaa-washer/id6498715620",
+        icon: "app-store",
+        type: "primary",
+      },
+      // { label: "Demo", link: "#", icon: "demo", type: "primary" },
     ],
   },
   {
@@ -107,7 +167,12 @@ export const projects = [
     technologies: [{ name: "WordPress", icon: "wordpress" }],
     screenshots: "./img/screenshots/donbuzz.png",
     buttons: [
-      { label: "Preview", link: "#", icon: "preview", type: "primary" },
+      {
+        label: "Preview",
+        link: "https://donbuzz.com",
+        icon: "preview",
+        type: "primary",
+      },
     ],
   },
   {
@@ -130,7 +195,12 @@ export const projects = [
     ],
     screenshots: "./img/screenshots/islami.png",
     buttons: [
-      { label: "Preview", link: "#", icon: "preview", type: "primary" },
+      {
+        label: "Preview",
+        link: "https://islam-i.vercel.app",
+        icon: "preview",
+        type: "primary",
+      },
     ],
   },
   {
@@ -148,7 +218,12 @@ export const projects = [
     ],
     screenshots: "./img/screenshots/sflc.png",
     buttons: [
-      { label: "Preview", link: "#", icon: "preview", type: "primary" },
+      {
+        label: "Preview",
+        link: "https://storied-lokum-04af22.netlify.app",
+        icon: "preview",
+        type: "primary",
+      },
     ],
   },
   {
@@ -166,7 +241,12 @@ export const projects = [
     ],
     screenshots: "./img/screenshots/foton.png",
     buttons: [
-      { label: "Preview", link: "#", icon: "preview", type: "primary" },
+      {
+        label: "Preview",
+        link: "https://melodious-gecko-3d2137.netlify.app",
+        icon: "preview",
+        type: "primary",
+      },
     ],
   },
   {
@@ -184,7 +264,12 @@ export const projects = [
     ],
     screenshots: "./img/screenshots/inventory.png",
     buttons: [
-      { label: "Preview", link: "#", icon: "preview", type: "primary" },
+      {
+        label: "Preview",
+        link: "https://nimble-alfajores-9e0bc0.netlify.app",
+        icon: "preview",
+        type: "primary",
+      },
     ],
   },
 ];

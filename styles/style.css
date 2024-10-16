@@ -950,3 +950,7 @@ button {
   font-size: 14px;
   color: #d3d3d3;
 }
+
+.pro-btn a{
+  text-decoration: none;
+}
