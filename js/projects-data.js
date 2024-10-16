@@ -255,14 +255,14 @@ export const projects = [
       "A CRUD web app developed for store owners to manage their product inventory. Features include adding products, tracking quantity, tax, and other key details.",
     description2:
       "The Inventory Management System offers advanced filtering options, analytics dashboards for inventory tracking, and automatic low-stock alerts. It’s designed to streamline store operations, reduce manual effort, and enhance inventory accuracy.",
-    img: "./img/inventory.png",
+    img: "./img/crud.png",
     type: "Web App",
     technologies: [
       { name: "HTML3", icon: "html" },
       { name: "CSS3", icon: "css" },
       { name: "JS", icon: "js" },
     ],
-    screenshots: "./img/screenshots/inventory.png",
+    screenshots: "./img/screenshots/crud.png",
     buttons: [
       {
         label: "Preview",
