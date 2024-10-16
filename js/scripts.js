@@ -21,9 +21,21 @@ filterButtons.forEach((button) => {
   });
 });
 
-function filterProjects(type) {
-  projectsContainer.innerHTML = "";
 
+const validFilters = [
+  "all",
+  "Mobile Application",
+  "Web App",
+  "Web Design / Landing Page",
+];
+
+function filterProjects(type) {
+  if (!validFilters.includes(type)) {
+    console.warn(`Invalid filter: ${type}`);
+    return;
+  }
+
+  projectsContainer.innerHTML = "";
   projects
     .filter((project) => type === "all" || project.type === type)
     .forEach((project) => {
@@ -90,8 +102,17 @@ function filterProjects(type) {
       projectCard.appendChild(moreInfoContainer);
 
       projectsContainer.appendChild(projectCard);
+      projectsContainer.addEventListener("click", (event) => {
+        const target = event.target.closest(".pro-btn");
+        if (target) {
+          event.stopPropagation(); 
+        }
+      });
+
     });
 }
+
+
 
 
 filterProjects("all");
