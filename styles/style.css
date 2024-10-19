@@ -182,7 +182,7 @@ polygon {
 }
 .aboutUs-section {
   min-height: 100vh;
-  background-image: url("https://i.ibb.co/XX8htwC/pawel-czerwinski-FD5i-SCbpuj4-unsplash.jpg"),
+  background-image: url("https://i.ibb.co/ncH8G52/city-384587-1280.jpg"),
     linear-gradient(to bottom, rgba(48, 0, 48, 0.8), #0a0a0a);
   background-blend-mode: color-burn; /*color color-burn color-dodge darken hard-light  luminosity multiply overlay saturation screen*/
   background-attachment: fixed;
